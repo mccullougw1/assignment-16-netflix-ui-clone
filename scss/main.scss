@@ -1,0 +1,48 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+
+body {
+   background: black;
+}
+
+#app-container{
+   padding-top: 100px;
+
+   .whichUser {
+      color: white;
+      margin-bottom: 50px;
+   }
+
+   .thumbnail {
+      background-color: black;
+      border: none;
+   }
+
+   h4 {
+      text-align: center;
+      color: white;
+   }
+
+   h5 {
+      color: white;
+      padding-top: 2px;
+   }
+
+   h2 {
+      color: white;
+   }
+
+   span {
+      background-color: #E26A6A;
+      color: black;
+   }
+
+   .home {
+      text-align: right;
+   }
+}
